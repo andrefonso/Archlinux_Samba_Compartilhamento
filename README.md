@@ -8,7 +8,7 @@ Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Lin
 
 ``sudo pacman -S samba``
 
-2- Crie o arquivo utilizando o Nano com o nome de **smb.conf** no diretório _/etc/samba/_ colando dentro dele o conteúdo contido no arquivo **smb.txt** disponível nesse repositório.
+2- Crie o arquivo **smb.conf** utilizando o Nano com o nome de no diretório _/etc/samba/_ colando dentro dele o conteúdo contido no arquivo **smb.txt** disponível nesse repositório.
 
 3- Altere o proprietário do arquivo _smb.conf_ para **andre** usando o seguinte comando:</br>
 ``sudo chown andre /etc/samba/smb.conf``
@@ -29,10 +29,12 @@ Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Lin
 
  |Obs. caso o comando acima mostre este aviso: **Failed to enable unit: Unit file smbd.service does not exist.**
 
-8- Use este comando:</br>
-
-``sudo systemctl enable smb.service``
-
+8- Use estes comando:</br>
+```
+sudo systemctl enable smb.service
+sudo systemctl restart smb nmb
+sudo systemctl enable samba smbd nmbd
+```
 9- Reinicie o pc.
 
 10- Verifique se o samba está instalado e rodando:
