@@ -10,7 +10,7 @@ Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Lin
 
 ``sudo pacman -S samba``
 
-2- Crie o arquivo **smb.conf** utilizando o Nano com o nome de no diretório _/etc/samba/_ colando dentro dele o conteúdo contido no arquivo **smb.txt** disponível nesse repositório.
+2- Utilizando o _Nano_ crie um arquivo com o nome de **smb.conf** dentro do diretório _/etc/samba/_. Cole dentro do arquivo o conteúdo contido no arquivo **smb.txt** disponível nesse repositório.
 
 3- Altere o proprietário do arquivo _smb.conf_ para **andre** usando o seguinte comando:</br>
 ``sudo chown andre /etc/samba/smb.conf``
