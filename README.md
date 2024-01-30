@@ -2,6 +2,8 @@
 Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Linux
 ---
 
+<img src="/imagens/archlinux.png">
+
 ### PASSOS PARA CONFIGURAR O SAMBA NO ARCH LINUX: 
 
 1- Instale o samba com o seguinte comando:
