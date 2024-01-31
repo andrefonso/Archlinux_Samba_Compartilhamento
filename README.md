@@ -35,7 +35,6 @@ Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Lin
 ```
 sudo systemctl enable smb.service
 sudo systemctl restart smb nmb
-sudo systemctl enable samba smbd nmbd
 ```
 9- Reinicie o pc.
 
