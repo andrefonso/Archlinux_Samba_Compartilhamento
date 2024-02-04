@@ -1,4 +1,4 @@
-# archlinux_file_sharing
+# Archlinux_Samba_Compartilhamento
 Tutorial para configuração do Samba e compartilhamento de arquivos no Arch Linux
 ---
 
